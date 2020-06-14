@@ -38,4 +38,4 @@ jobs:
 
 # deploying project to surge
     - name: deploying project surge
-      run: surge ./build project001.surge.sh --token ${{ secrets.p001_TOKEN}}
+      run: surge ./build project001.surge.sh --token ${{ secrets.P001_TOKEN}}
